@@ -18,9 +18,9 @@ The data is from [figshare](https://figshare.com/articles/dataset/Daily_rainfall
 ## Report
 All reports are stored in `notebooks` directory.
 
-- Milestone 1: A summary of observations on challenges encountered while exploring different options to tackle big data local laptops., is documented in this [notebook_1](https://github.com/UBC-MDS/dsci-525-group-23/blob/3ed57be059022a119dc940486ab6554c32ea4d26/notebooks/milestone_1.ipynb).
+- Milestone 1: A summary of observations on challenges encountered while exploring different options to tackle big data local laptops., is documented in this [notebook_1](https://github.com/UBC-MDS/dsci-525-group-23/blob/e4135630430ad075a585b5a1614c33c72ee5a24f/notebooks/milestone_1.ipynb).
 
-- Milestone 2: Setting up cloud instance, JupyterHub and server, moving data to s3 bucket and wrangling data for machine learning. This process is documented in this [notebook2](https://github.com/UBC-MDS/dsci-525-group-23/blob/dev/notebooks/milestone_2.ipynb)
+- Milestone 2: Setting up cloud instance, JupyterHub and server, moving data to s3 bucket and wrangling data for machine learning. This process is documented in this [notebook2](https://github.com/UBC-MDS/dsci-525-group-23/blob/e4135630430ad075a585b5a1614c33c72ee5a24f/notebooks/milestone_2.ipynb)
 
 - Milestone 3:
 
