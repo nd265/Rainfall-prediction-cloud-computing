@@ -22,7 +22,7 @@ All reports are stored in `notebooks` directory.
 
 - Milestone 2: Setting up cloud instance, JupyterHub and server, moving data to s3 bucket and wrangling data for machine learning. This process is documented in this [notebook](https://github.com/UBC-MDS/dsci-525-group-23/blob/26653a242881b61fb2176e72ea143ea785d538be/notebooks/milestone_2.ipynb).
 
-- Milestone 3: Setting up EMR cluster, developing machine learning model, tuning hyperparameters in preparation for deploying model on the cloud. This process is documented in this [notebook folder](https://github.com/UBC-MDS/dsci-525-group-23/tree/dev/notebooks/Milestone%203).
+- Milestone 3: Setting up EMR cluster, developing machine learning model, tuning hyperparameters in preparation for deploying model on the cloud. This process is documented in this [notebook](https://github.com/UBC-MDS/dsci-525-group-23/blob/c41239efa21f7b5fee70873e5c11813394748a07/notebooks/Milestone%203/Milestone3.ipynb).
 
 - Milestone 4:
 
