@@ -1,36 +1,35 @@
 from flask import Flask, request, jsonify
 import joblib
-import numpy as np
-## Import any other packages that are needed
 
 app = Flask(__name__)
 
-# 1. Load your model here
-model = joblib.load("./model.joblib")
+# Load model
+model = joblib.load("<S3 path>")
 
-# 2. Define a prediction function
+# Return model's prediction for the given data
 def return_prediction(data):
-
-    # format input_data here so that you can pass it to model.predict()
 
     return model.predict([data]).tolist()
 
-# 3. Set up home page using basic html
+# Home page route
 @app.route("/")
 def index():
-    # feel free to customize this if you like
+
     return """
     <h1>Welcome to our rain prediction service</h1>
     To use this service, make a JSON post request to the /predict url with 25 climate model outputs.
     """
 
-# 4. define a new route which will accept POST requests and return model predictions
+# Predict route to get model prediction
 @app.route('/predict', methods=['POST'])
 def rainfall_prediction():
-    content = request.json  # this extracts the JSON content we sent
+    
+    # extracts the JSON content
+    content = request.json
+    # get the model prediction
     prediction = return_prediction(content["data"])
-    results = {"Input": content["data"], "Prediction": prediction}  # return whatever data you wish, it can be just the prediction
-                     # or it can be the prediction plus the input data, it's up to you
-    return jsonify(results)
+    # construct response object
+    results = {"Input": content["data"], "Prediction": prediction}
 
-app.run(port=8080)
+    # jsonify the response object
+    return jsonify(results)
