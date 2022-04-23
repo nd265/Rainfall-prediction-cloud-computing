@@ -1,7 +1,6 @@
 # DSCI 525 Group 23 Project
 This group project is a part of the course DSCI_525 Web and Cloud Computing in MDS program - cohort 2021-2022 at University of British Columbia.
 
-The purpose of the course is to teach students various ways to deal with "Big Data" from understanding dimensions of Big Data, learning how to store and process Big Data, using AWS cloud solutions and ultimately building and deploying ensemble machine learning models in the cloud.
 
 ## Overview
 The project is divided into 4 milestones, in which we will sequentially take on the roles of Data Engineer, DevOps Engineer, Infrastructure Engineer, and Data Scientist.
