@@ -24,7 +24,7 @@ All reports are stored in `notebooks` directory.
 
 - Milestone 3: Setting up EMR cluster, developing machine learning model, tuning hyperparameters in preparation for deploying model on the cloud. This process is documented in this [notebook](https://github.com/UBC-MDS/dsci-525-group-23/blob/c41239efa21f7b5fee70873e5c11813394748a07/notebooks/Milestone%203/Milestone3.ipynb).
 
-- Milestone 4:
+- Milestone 4: Deploying the machine learning model as an API using flask. This process is documented in this [notebook](https://github.com/UBC-MDS/dsci-525-group-23/blob/9e23689f3896a39c1db7db3519948e998a3256d4/notebooks/milestone_4.ipynb)
 
 ## License
 The materials of this project are licensed under the MIT License (Copyright (c) 2020 Master of Data Science at the University of British Columbia). If you want to re-use/re-mix the analysis and the materials used in this project, please provide attribution and link to this repository.
